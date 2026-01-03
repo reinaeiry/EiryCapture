@@ -1,0 +1,17 @@
+<Window x:Class="StreamingAgent.App.MirrorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Streaming Region"
+        WindowStyle="SingleBorderWindow"
+        ResizeMode="CanResize"
+        Width="1920" Height="1080"
+        Background="#050505" Foreground="#F0F0F0">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Image x:Name="CaptureImage"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   RenderOptions.BitmapScalingMode="HighQuality"/>
+        </Viewbox>
+    </Grid>
+</Window>
