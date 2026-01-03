@@ -1,6 +1,6 @@
 # EiryCapture
 
-EiryCapture is a small Windows screen-region capture tool optimized for ultrawide setups and Discord streaming. It lets you pick a rectangular portion of your monitor, mirrors that region in a dedicated window, and then you share that window (with system audio) in Discord.
+EiryCapture is a small Windows screen-region capture tool. It lets you pick a rectangular portion of your monitor, mirrors that region in a dedicated window, and then you share that window (with system audio) in Discord.
 
 Under the hood, it uses the Windows desktop DC and GDI `BitBlt` to grab only the pixels you care about at a configurable FPS, then renders them in a WPF mirror window. Discord sees that mirror window as a normal app, so your main desktop remains fully usable.
 
